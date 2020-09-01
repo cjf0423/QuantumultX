@@ -451,7 +451,6 @@ function Base64() {
                 _keyStr.charAt(enc1) + _keyStr.charAt(enc2) +
                 _keyStr.charAt(enc3) + _keyStr.charAt(enc4);
         }
-        
         return output;
     }
     // public method for decoding
