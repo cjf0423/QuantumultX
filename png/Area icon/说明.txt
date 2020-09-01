@@ -1,0 +1,1 @@
+此为地区图标显示各地区国旗导入到geo_location_checker
