@@ -1,0 +1,1 @@
+jd_price.js
