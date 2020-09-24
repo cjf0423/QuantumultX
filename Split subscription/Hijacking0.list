@@ -1,0 +1,53 @@
+# Internet Service Providers Hijacking 运营商劫持
+
+DOMAIN-SUFFIX,186078.com,运营商劫持
+DOMAIN-SUFFIX,51mypc.cn,运营商劫持
+DOMAIN-SUFFIX,5vl58stm.com,运营商劫持
+DOMAIN-SUFFIX,echatu.com,运营商劫持
+DOMAIN-SUFFIX,goupaoerdai.com,运营商劫持
+DOMAIN-SUFFIX,gzxnlk.com,运营商劫持
+DOMAIN-SUFFIX,hyunke.com,运营商劫持
+DOMAIN-SUFFIX,jsncke.com,运营商劫持
+DOMAIN-SUFFIX,junkucm.com,运营商劫持
+DOMAIN-SUFFIX,kawo77.com,运营商劫持
+DOMAIN-SUFFIX,mobjump.com,运营商劫持
+DOMAIN-SUFFIX,nbkbgd.cn,运营商劫持
+DOMAIN-SUFFIX,qianchuanghr.com,运营商劫持
+DOMAIN-SUFFIX,tt3sm4.cn,运营商劫持
+DOMAIN-SUFFIX,websd8.com,运营商劫持
+DOMAIN-SUFFIX,wsgblw.com,运营商劫持
+DOMAIN-SUFFIX,xchmai.com,运营商劫持
+DOMAIN-SUFFIX,ygyzx.cn,运营商劫持
+DOMAIN-SUFFIX,zlne800.com,运营商劫持
+IP-CIDR,39.107.15.115/32,运营商劫持
+IP-CIDR,103.49.209.27/32,运营商劫持
+# > ChinaTelecom
+IP-CIDR,61.174.50.214/32,运营商劫持
+IP-CIDR,111.175.220.163/32,运营商劫持
+IP-CIDR,122.229.8.47/32,运营商劫持
+IP-CIDR,122.229.29.89/32,运营商劫持
+# > ChinaUnicom
+IP-CIDR,106.75.231.48/32,运营商劫持
+IP-CIDR,221.6.4.148/32,运营商劫持
+# > ChinaMobile
+IP-CIDR,221.179.131.72/32,运营商劫持
+IP-CIDR,221.179.140.145/32,运营商劫持
+# > Dr.Peng
+IP-CIDR,118.144.88.216/32,运营商劫持
+IP-CIDR,211.161.101.106/32,运营商劫持
+
+# Malware 恶意网站
+# > MacKeeper
+# https://www.lizhi.io/blog/40002904
+DOMAIN-SUFFIX,zryydi.com,运营商劫持
+# > Adobe Flash China Special Edition
+# https://www.zhihu.com/question/281163698/answer/441388130
+DOMAIN-SUFFIX,flash.cn,运营商劫持
+# > C&J Marketing 思杰马克丁软件
+# https://www.zhihu.com/question/46746200
+DOMAIN-SUFFIX,betterzipcn.com,运营商劫持
+DOMAIN-SUFFIX,dongmansoft.com,运营商劫持
+DOMAIN-SUFFIX,earmasterchina.cn,运营商劫持
+DOMAIN-SUFFIX,luping.net.cn,运营商劫持
+DOMAIN-SUFFIX,mindmanager.cn,运营商劫持
+DOMAIN-SUFFIX,photozoomchina.com,运营商劫持
