@@ -1,1 +1,12 @@
-1212121212
+# NAME: 巴哈姆特
+# GITHUB: https://github.com/blackmatrix7/ios_rule_script
+# UPDATE: 2020-10-21 14:44:21
+# USER-AGENT: 1
+# HOST-SUFFIX: 2
+# HOST: 2
+# TOTAL: 5
+HOST,gamer-cds.cdn.hinet.net,巴哈姆特
+HOST,gamer2-cds.cdn.hinet.net,巴哈姆特
+HOST-SUFFIX,巴哈姆特動畫瘋.com.tw,巴哈姆特
+HOST-SUFFIX,gamer.com.tw,巴哈姆特
+USER-AGENT,anime*,巴哈姆特
