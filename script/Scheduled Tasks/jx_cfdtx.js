@@ -3,7 +3,7 @@
   Name:财富岛提现
   Address: 京喜App ====>>>> 全民赚大钱
   Author：MoPoQAQ
-  Update: 2021/1/28 17:30
+  Update: 2021/2/2 13:00
 
   Thanks: 
     💢疯疯💢
@@ -112,7 +112,7 @@ function getTokens() {
       $.tokenArr.push(jdTokenNode[item] ? JSON.parse(jdTokenNode[item]) : '{}');
     })
   } else {
-    $.tokenArr = [JSON.parse($.getdata('jxnc_token1') || '{}'), JSON.parse($.getdata('jxnc_token2') || '{}')];
+    $.tokenArr = JSON.parse($.getdata('jx_tokens') || '[]');
   }
   if (!$.tokenArr[0]) {
     $.msg(
