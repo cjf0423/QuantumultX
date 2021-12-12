@@ -1,0 +1,150 @@
+{
+    "id": "cjf0423.app.sub",
+    "name": "自用boxjs订阅",
+    "author": "@cjf0423",
+    "icon": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/kongfu.jpg",
+    "repo": "https://github.com/shaolin-kongfu/js_scripts",
+    "apps": [
+       {
+      "id": "zqfbjl",
+      "name": "中青奖励翻倍",
+      "keys": [
+        "zqfbjlbody"
+      ], 
+      "repo": "https://github.com/liuqi6968/-/blob/main/zq_fbjl.js",
+      "script": "https://raw.githubusercontent.com/liuqi6968/-/main/zq_fbjl.js",     
+      "icons": [ 
+      "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
+      "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"
+      ]
+        },
+        {
+      "id": "zqercibox",
+      "name": "中青看点5分钟60分钟任务领取",
+      "keys": [
+        "zqerciboxbody"
+      ], 
+      "repo": "https://github.com/cjf935257177/QuantumultX/blob/master/script/Scheduled%20Tasks/zq_5_60.js",
+      "script": "https://raw.githubusercontent.com/cjf935257177/QuantumultX/master/script/Scheduled%20Tasks/zq_5_60.js",     
+      "icons": [ 
+      "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
+      "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"
+      ]
+        },
+        {
+      "id": "jcercibox",
+      "name": "晶彩看点5分钟60分钟任务领取",
+      "keys": [
+        "jcerciboxbody"
+      ], 
+      "repo": "https://github.com/liuqi6968/-/blob/main/Jc_5_60.js",
+      "script": "https://raw.githubusercontent.com/liuqi6968/-/main/Jc_5_60.js",     
+      "icons": [ 
+      "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
+      "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"
+      ]
+        },
+      {
+      "id": "jctqKkz",
+      "name": "水果天气看看赚",
+      "keys": [
+        "jctqLookStartbody"
+      ], 
+      "repo": "https://github.com/leafxcy/JavaScript/blob/main/jctq/jctq_kkz.js",  
+      "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jctq/jctq_kkz.js", 
+       
+      "icons": [ 
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"  
+      ]
+    },
+    {
+      "id": "jctqRead",
+      "name": "水果天气自动阅读",
+      "keys": [
+        "jctqwzbody",
+        "jctqtimebody"
+      ], 
+      "repo": "https://github.com/leafxcy/JavaScript/blob/main/jctq/jctq_read.js", 
+      "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jctq/jctq_read.js", 
+      "icons": [ 
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"
+      ]
+    },
+    {
+      "id": "jctqSign1",
+      "name": "水果天气日常",
+      "keys": [
+        "jctqBubbleBody",
+        "jctqGiveBoxBody",
+        "jctqGoldBody",
+        "jctqVideoBody"
+      ], 
+      "repo": "https://github.com/leafxcy/JavaScript/blob/main/jctq/jctq_daily.js",
+      "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jctq/jctq_daily.js",     
+      "icons": [ 
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"
+      ]
+    },
+    {
+      "id": "jctqSign2",
+      "name": "水果天气任务签到",
+      "keys": [
+        "jctqBoxbody",
+        "jctqSignDoubleBody"
+      ], 
+      "repo": "https://github.com/leafxcy/JavaScript/blob/main/jctq/jctq_reward.js",
+      "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jctq/jctq_reward.js",     
+      "icons": [ 
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"
+      ]
+    },
+    {
+      "id": "jctqCookie",
+      "name": "水果天气COOKIE",
+      "keys": [
+        "jctqcookie"
+      ], 
+      "repo": "https://github.com/leafxcy/JavaScript/tree/main/jctq",
+      "script": "https://github.com/leafxcy/JavaScript/tree/main/jctq",     
+      "icons": [ 
+      "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
+      "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"
+      ]
+     },
+    {
+      "id": "jctq_withdraw",
+      "name": "水果天气提现",
+      "keys": 
+        ["jctqwithdraw","jctqWithdrawFlag"],
+  "settings": [{
+          "id": "jctqWithdrawFlag", 
+          "val": "0.3", 
+          "name": "提现金额", 
+          "type": "radios", 
+          "desc": "自动提现金额需和获取提现请求保持一致", 
+          "items": [
+            {
+              "key": "0.3", 
+              "label": "0.3元"
+            }, 
+            {
+              "key": "30", 
+              "label": "30元"
+            }
+          ]
+        }
+        ],
+  
+      "repo": "https://github.com/leafxcy/JavaScript/blob/main/jctq/jctq_reward.js",
+      "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jctq/jctq_reward.js",     
+      "icons": [ 
+      "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
+      "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"
+      ]
+    }
+   ]
+}
