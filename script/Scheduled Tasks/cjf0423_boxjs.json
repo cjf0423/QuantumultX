@@ -1,6 +1,6 @@
 {
     "id": "cjf0423.app.sub",
-    "name": "cjf0423_boxjs订阅",
+    "name": "自用boxjs订阅",
     "author": "@cjf0423",
     "icon": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/kongfu.jpg",
     "repo": "https://github.com/shaolin-kongfu/js_scripts",
@@ -62,8 +62,8 @@
       "id": "jctqRead",
       "name": "水果天气自动阅读",
       "keys": [
-        "jctqwzbody",
-        "jctqtimebody"
+        "jctqWzBody",
+        "jctqTimeBody"
       ], 
       "repo": "https://github.com/leafxcy/JavaScript/blob/main/jctq/jctq_read.js", 
       "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jctq/jctq_read.js", 
@@ -106,7 +106,7 @@
       "id": "jctqCookie",
       "name": "水果天气COOKIE",
       "keys": [
-        "jctqcookie"
+        "jctqCookie"
       ], 
       "repo": "https://github.com/leafxcy/JavaScript/tree/main/jctq",
       "script": "https://github.com/leafxcy/JavaScript/tree/main/jctq",     
