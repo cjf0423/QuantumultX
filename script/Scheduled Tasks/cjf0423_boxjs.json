@@ -119,7 +119,7 @@
       "id": "jctq_withdraw",
       "name": "水果天气提现",
       "keys": 
-        ["jctqwithdraw","jctqWithdrawFlag"],
+        ["jctqWithdraw","jctqWithdrawFlag"],
   "settings": [{
           "id": "jctqWithdrawFlag", 
           "val": "0.3", 
