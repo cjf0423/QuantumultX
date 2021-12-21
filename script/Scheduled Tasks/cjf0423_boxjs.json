@@ -5,6 +5,21 @@
     "icon": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/kongfu.jpg",
     "repo": "https://github.com/shaolin-kongfu/js_scripts",
     "apps": [
+      {
+      "id": "jctqSign1",
+      "name": "水果天气日常",
+      "keys": [
+        "zqkdAccount",
+        "zqkdBlackCookie",
+        "zqkdCancel"
+      ], 
+      "repo": "https://github.com/leafxcy/JavaScript/blob/main/zqkd/zqkd_check.js",
+      "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/zqkd/zqkd_check.js",     
+      "icons": [ 
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
+        "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"
+      ]
+    },
        {
       "id": "zqfbjl",
       "name": "中青奖励翻倍",
