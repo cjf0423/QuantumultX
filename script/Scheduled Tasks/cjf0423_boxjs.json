@@ -6,8 +6,8 @@
     "repo": "https://github.com/shaolin-kongfu/js_scripts",
     "apps": [
       {
-      "id": "jctqSign1",
-      "name": "水果天气日常",
+      "id": "zqkd_check",
+      "name": "中青看点检查",
       "keys": [
         "zqkdAccount",
         "zqkdBlackCookie",
