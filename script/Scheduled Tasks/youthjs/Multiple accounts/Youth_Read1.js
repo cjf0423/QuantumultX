@@ -11,7 +11,7 @@
 const $ = new Env("中青看点阅读1")
 //const notify = $.isNode() ? require('./sendNotify') : '';
 let ReadArr = [], timebodyVal ="";
-let YouthBody = $.getdata('youth_autoread1')||$.getdata("zqgetbody_body");
+let YouthBody = $.getdata('youth_autoread1')||$.getdata("zqgetbody_body1");
 let smallzq = $.getdata('youth_cut1');
 let indexLast = $.getdata('zqbody_index1');
 let artsnum = 0, videosnum = 0;
