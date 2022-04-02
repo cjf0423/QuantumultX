@@ -7,7 +7,7 @@
 
 */
 
-const $ = new Env("中青看点");
+const $ = new Env("中青看点1");
 
 const notify = $.isNode() ? require('./sendNotify') : '';
 //const youthNode = $.isNode() ? require('./youth_env') : '';
