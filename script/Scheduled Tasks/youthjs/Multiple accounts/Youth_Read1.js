@@ -13,7 +13,7 @@ const $ = new Env("中青看点阅读1")
 let ReadArr = [], timebodyVal ="";
 let YouthBody = $.getdata('youth_autoread1')||$.getdata("zqgetbody_body");
 let smallzq = $.getdata('youth_cut1');
-let indexLast = $.getdata('zqbody_index');
+let indexLast = $.getdata('zqbody_index1');
 let artsnum = 0, videosnum = 0;
 let videoscore = 0,readscore = 0;
 let artArr = [], delbody = 0;
@@ -21,7 +21,7 @@ if (isGetbody = typeof $request !==`undefined`) {
    Getbody();
    $.done()
 } 
-let lastIndex = $.getdata('zqbody_index')
+let lastIndex = $.getdata('zqbody_index1')
 if (!$.isNode() && !YouthBody == true) {
     $.log("您未获取阅读请求，请求阅读后获取")
     $.msg($.name, "您未获取阅读请求，请求阅读后获取", "", {
@@ -104,7 +104,7 @@ function bodyInfo() {
             //$.log(JSON.stringify(bodyobj,null,2))
                 $.begin = $.begin + 1;
                 let res = $.begin % ReadArr.length;
-                $.setdata(res + "", 'zqbody_index');
+                $.setdata(res + "", 'zqbody_index1');
             try {
                 if (bodyobj.error_code == "200007"&&!$.isNode()) {
                 await removebody();
