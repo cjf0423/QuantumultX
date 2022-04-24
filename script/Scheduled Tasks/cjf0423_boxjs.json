@@ -40,33 +40,6 @@
         "https://raw.githubusercontent.com/Orz-3/task/master/elem.png"]
   },
   {
-    "id": "Mt",
-    "name": "美团天天神卷+赚米粒",
-    "keys": ["sjpz", "mtTk"],
-    "descs_html": [
-      "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://gitee.com/xiecoll/radish-script/raw/master/MT/lb_meituan.js\">脚本注释</a></h4>"
-    ],
-    "settings": [{
-      "id": "sjpz",
-      "name": "关闭膨胀红包",
-      "val": false,
-      "type": "boolean",
-      "desc": "如需关闭膨胀，默认为false,开启后关闭"
-    }, {
-      "id": "mtTk",
-      "name": "美团cookie",
-      "val": "",
-      "type": "text",
-      "placeholder": "(点击以展开说明)",
-      "desc": "百度美团登录自己抓Token美团小程序首页天天赚钱（建议直接复制）"
-    }],
-    "script": "https://gitee.com/xiecoll/radish-script/raw/master/MT/lb_meituan.js",
-    "author": "@cjf0423",
-    "repo": "https://gitee.com/xiecoll/radish-script/raw/master/MT/lb_meituan.js",
-    "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/meituan.png",
-        "https://raw.githubusercontent.com/Orz-3/task/master/meituan.png"]
-  },
-  {
   "id": 
   "JD_Cookies_remark", 
   "name": "登陆助手", 
