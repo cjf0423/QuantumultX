@@ -5,6 +5,41 @@
   "icon": "https://avatars2.githubusercontent.com/u/21050064?s=460&u=40a74913dd0a3d00670d05148c3a08c787470021&v=4",
   "repo": "https://github.com/Peng-YM/QuanX",
   "apps": [
+   {
+    "id": "elmleaf",
+    "name": "饿了么leaf",
+    "keys": ["elmCookie", "elmOrderFlag", "elmOrderTime"],
+    "descs_html": [
+      "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/leafTheFish/DeathNote/main/elm.js\">脚本注释</a></h4>"
+    ],
+    "settings": [{
+      "id": "elmOrderFlag",
+      "name": "兑换优惠券",
+      "val": "",
+      "type": "text",
+      "placeholder": "(点击以展开说明)",
+      "desc": "要抢10元无门槛券的话，设置elmOrderFlag为1，每个账号单独设置并用&隔开，如:export elmOrderFlag='1&0&0'，这样设置为账号1抢兑10元无门槛券，其他账号不抢"
+    }, {
+      "id": "elmCookie",
+      "name": "饿了吗cookie",
+      "val": "",
+      "type": "text",
+      "placeholder": "(点击以展开说明)",
+      "desc": "饿了么app 或 支付宝饿了么小程序 或 微信饿了么小程序 -> 我的 -> 赚吃货豆h5.ele.me，把header里面的Cookie填进去elmCookie捉包里的Cookie全部内容"
+    }, {
+      "id": "elmOrderTime",
+      "name": "延迟",
+      "val": "9:59:59:950",
+      "type": "text",
+      "placeholder": "(点击以展开说明)",
+      "desc": "需要在设置的抢券时间提前1分钟跑，默认9:59:59:950开始抢，连续抢50次(大约0.5秒)可以自己配置开始抢券的时间，把elmOrderTime设置成开始的时间，格式(小时:分钟:秒:毫秒)，注意要用英文冒号，如export elmOrderTime=9:59:59:950"
+    }],
+    "script": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/elm.js",
+    "author": "@cjf0423",
+    "repo": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/elm.js",
+    "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/elem.png",
+        "https://raw.githubusercontent.com/Orz-3/task/master/elem.png"]
+  },
   {
     "id": "Elm",
     "name": "饿了么吃货豆",
