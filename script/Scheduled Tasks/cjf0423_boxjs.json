@@ -15,8 +15,9 @@
     "settings": [{
       "id": "meituanNotify",
       "name": "推送开关",
-      "val": ture,
-      "type": "boolean",
+      "val": 1,
+      "type": "text",
+      "placeholder": "(点击以展开说明)",
       "desc": "推送开关变量meituanNotify，填0为不推送，填1或其他推送，默认为1"
     }, {
       "id": "meituanCookie",
