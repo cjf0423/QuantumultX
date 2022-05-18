@@ -21,7 +21,7 @@
     }, {
       "id": "meituanCookie",
       "name": "美团cookie",
-      "val": "",
+      "val": "token=",
       "type": "text",
       "placeholder": "(点击以展开说明)",
       "desc": "把*.meituan.com包里的userId(可选，用于区别多账号捉包),token填到meituanCookie里，多账号换行或者@隔开。格式：export meituanCookie='userId=12345678&token=ccccccccccccccccc'userId可以删掉不填"
