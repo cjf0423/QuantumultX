@@ -15,7 +15,7 @@
     "settings": [{
       "id": "meituanNotify",
       "name": "推送开关",
-      "val": false,
+      "val": ture,
       "type": "boolean",
       "desc": "推送开关变量meituanNotify，填0为不推送，填1或其他推送，默认为1"
     }, {
