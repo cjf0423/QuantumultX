@@ -124,6 +124,48 @@
         "https://raw.githubusercontent.com/Orz-3/task/master/elem.png"]
   },
   {
+    "id": "ksjsb",
+    "name": "快手极速版leaf",
+    "keys": ["ksjsbCookie", "ksjsbWithdrawTime", "ksjsbNotify", "ksjsbCash"],
+    "descs_html": [
+      "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/leafTheFish/DeathNote/main/ksjsb.js\">脚本注释</a></h4>"
+    ],
+    "settings": [{
+      "id": "ksjsbCookie",
+      "name": "快手cookie",
+      "val": "",
+      "type": "text",
+      "placeholder": "(点击以展开说明)",
+      "desc": "必填，快手cookie，可全部复制进来或者只复制kuaishou.api_st和did"
+    }, {
+      "id": "ksjsbWithdrawTime",
+      "name": "提现时间",
+      "val": 8,
+      "type": "text",
+      "placeholder": "(点击以展开说明)",
+      "desc": "选填，提现时间，默认为8，即8点提现"
+    }, {
+      "id": "ksjsbNotify",
+      "name": "推送通知等级",
+      "val": 1,
+      "type": "text",
+      "placeholder": "(点击以展开说明)",
+      "desc": "选填，默认为1。 0：不通知，1：提现时间通知，2：每次运行通知"
+    }, {
+      "id": "ksjsbCash",
+      "name": "提现额度",
+      "val": 0,
+      "type": "text",
+      "placeholder": "(点击以展开说明)",
+      "desc": "选填，默认为空。填了就按这个数字固定额度填写，例如固定提2块就填2"
+    }],
+    "script": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/ksjsb.js",
+    "author": "@cjf0423",
+    "repo": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/ksjsb.js",
+    "icons": ["https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/kuaishou.png",
+        "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/kuaishou.png"]
+  },
+  {
   "id": 
   "JD_Cookies_remark", 
   "name": "登陆助手", 
