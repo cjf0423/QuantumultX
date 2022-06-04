@@ -166,6 +166,26 @@
         "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/kuaishou.png"]
   },
   {
+    "id": "txspfl",
+    "name": "腾讯视频-福利中心",
+    "keys": ["txspCookie"],
+    "descs_html": [
+      "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/leafTheFish/DeathNote/main/txspfl.js\">脚本注释</a></h4>"
+    ],
+    "settings": [{
+      "id": "txspCookie",
+      "name": "Cookie",
+      "val": "",
+      "type": "boolean",
+      "desc": "腾讯视频app->我的->常用功能-福利兑换，捉里面pbaccess.video.qq.com的CK,放到txspCookie里，多账号换行或者@或者&隔开"
+    }],
+    "script": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/txspfl.js",
+    "author": "@cjf0423",
+    "repo": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/txspfl.js",
+    "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Color/videoqq.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/videoqq.png"]
+  },
+  {
   "id": 
   "JD_Cookies_remark", 
   "name": "登陆助手", 
