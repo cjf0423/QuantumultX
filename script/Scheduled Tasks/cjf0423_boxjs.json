@@ -176,7 +176,7 @@
       "id": "txspCookie",
       "name": "Cookie",
       "val": "",
-      "type": "boolean",
+      "type": "text",
       "desc": "腾讯视频app->我的->常用功能-福利兑换，捉里面pbaccess.video.qq.com的CK,放到txspCookie里，多账号换行或者@或者&隔开"
     }],
     "script": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/txspfl.js",
