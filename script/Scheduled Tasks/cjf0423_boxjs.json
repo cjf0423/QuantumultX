@@ -166,6 +166,26 @@
         "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/kuaishou.png"]
   },
   {
+    "id": "ddgy",
+    "name": "滴滴果园leaf",
+    "keys": ["ddgyToken"],
+    "descs_html": [
+      "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/cjf0423/ZIYE00/leafTheFish/ddgy.js\">脚本注释</a></h4>"
+    ],
+    "settings": [{
+      "id": "ddgyToken",
+      "name": "Cookie",
+      "val": "",
+      "type": "text",
+      "desc": "捉任意game.xiaojukeji.com的包，把body里的uid和token用&连起来填到变量ddgyToken,uid其实不重要，只是用来区分token所属的账号，方便重写。手动捉包的话uid随便填都可以多账号换行或者@隔开重写多账号直接换号捉就行"
+    }],
+    "script": "https://raw.githubusercontent.com/cjf0423/ZIYE00/leafTheFish/ddgy.js",
+    "author": "@cjf0423",
+    "repo": "https://raw.githubusercontent.com/cjf0423/ZIYE00/leafTheFish/ddgy.js",
+    "icons": ["https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/didi_checkin.png",
+        "https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/didi_checkin.png"]
+  },
+  {
     "id": "txspfl",
     "name": "腾讯视频-福利中心",
     "keys": ["txspCookie"],
