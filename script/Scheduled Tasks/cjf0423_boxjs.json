@@ -15,8 +15,8 @@
     "settings": [{
       "id": "meituanNotify",
       "name": "推送开关",
-      "val": 1,
-      "type": "text",
+      "val": "1",
+      "type": "number",
       "placeholder": "(点击以展开说明)",
       "desc": "推送开关变量meituanNotify，填0为不推送，填1或其他推送，默认为1"
     }, {
@@ -71,8 +71,8 @@
     }, {
       "id": "elmNotify",
       "name": "推送通知等级",
-      "val": 2,
-      "type": "text",
+      "val": "2",
+      "type": "number",
       "placeholder": "(点击以展开说明)",
       "desc": "0:只有CK失效时候会推送,1:CK失效或者抢到10元券才会推送,2:正常推送,默认为2"
     }, {
@@ -140,25 +140,40 @@
     }, {
       "id": "ksjsbWithdrawTime",
       "name": "提现时间",
-      "val": 8,
-      "type": "text",
+      "val": "8",
+      "type": "number",
       "placeholder": "(点击以展开说明)",
       "desc": "选填，提现时间，默认为8，即8点提现"
     }, {
       "id": "ksjsbNotify",
       "name": "推送通知等级",
-      "val": 1,
-      "type": "text",
+      "val": "1",
+      "type": "number",
       "placeholder": "(点击以展开说明)",
       "desc": "选填，默认为1。 0：不通知，1：提现时间通知，2：每次运行通知"
     }, {
-      "id": "ksjsbCash",
-      "name": "提现额度",
-      "val": 0,
-      "type": "text",
-      "placeholder": "(点击以展开说明)",
-      "desc": "选填，默认为空。填了就按这个数字固定额度填写，例如固定提2块就填2"
-    }],
+      "id": "ksjsbCash", 
+      "val": "3", 
+      "name": "提现金额", 
+      "type": "radios", 
+      "desc": "选填，", 
+      "items": [{        
+        "key": "3", 
+        "label": "3元"
+        }, 
+        {
+        "key": "10", 
+        "label": "10元"
+        }, 
+        {
+        "key": "20", 
+        "label": "20元"
+        },
+        {
+        "key": "50", 
+        "label": "50元"
+        }]
+        }],
     "script": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/ksjsb.js",
     "author": "@cjf0423",
     "repo": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/ksjsb.js",
