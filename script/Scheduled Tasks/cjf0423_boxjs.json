@@ -50,7 +50,7 @@
   {
     "id": "elmleaf",
     "name": "饿了么leaf",
-    "keys": ["elmCookie", "elmOrderFlag", "elmNotify", "elmOrderTime"],
+    "keys": ["elmCookie", "elmOrderFlag", "elmOrderAmount", "elmNotify", "elmOrderTime"],
     "descs_html": [
       "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/leafTheFish/DeathNote/main/elm.js\">脚本注释</a></h4>"
     ],
@@ -68,6 +68,13 @@
       "type": "text",
       "placeholder": "(点击以展开说明)",
       "desc": "饿了么app 或 支付宝饿了么小程序 或 微信饿了么小程序 -> 我的 -> 赚吃货豆h5.ele.me，把header里面的Cookie填进去elmCookie捉包里的Cookie全部内容"
+    }, {
+      "id": "elmOrderAmount",
+      "name": "抢券金额",
+      "val": "",
+      "type": "text",
+      "placeholder": "(点击以展开说明)",
+      "desc": "可选，抢券金额，默认为10元。目前只支持9元和10元，每个账号独立，多账号用&隔开。例如 10&9&10 为账号1和3抢10元券，账号2抢9元券"
     }, {
       "id": "elmNotify",
       "name": "推送通知等级",
