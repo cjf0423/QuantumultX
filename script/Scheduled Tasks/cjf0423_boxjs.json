@@ -188,6 +188,55 @@
         "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/kuaishou.png"]
   },
   {
+    "id": "ks",
+    "name": "快手leaf",
+    "keys": ["ksCookie", "ksWithdrawTime", "ksNotify", "ksCash", "ksAggressive"],
+    "descs_html": [
+      "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/leafTheFish/DeathNote/main/ks.js\">脚本注释</a></h4>"
+    ],
+    "settings": [{
+      "id": "ksCookie",
+      "name": "快手cookie",
+      "val": "",
+      "type": "text",
+      "placeholder": "(点击以展开说明)",
+      "desc": "必填，快手cookie，可全部复制进来或者只复制kuaishou.api_st和did"
+    }, {
+      "id": "ksWithdrawTime",
+      "name": "提现时间",
+      "val": "8",
+      "type": "number",
+      "placeholder": "(点击以展开说明)",
+      "desc": "选填，提现时间，默认为9，即9点提现"
+    }, {
+      "id": "ksNotify",
+      "name": "推送通知等级",
+      "val": "1",
+      "type": "number",
+      "placeholder": "(点击以展开说明)",
+      "desc": "选填，默认为1。 0：不通知，1：提现时间通知，2：每次运行通知"
+    }, {
+      "id": "ksCash",
+      "name": "提现金额",
+      "val": "",
+      "type": "number",
+      "placeholder": "(点击以展开说明)",
+      "desc": "选填，默认为空。填了就按这个数字固定额度填写，例如固定提2块就填2"
+    }, {
+      "id": "ksAggressive",
+      "name": "最大化提现",
+      "val": "1",
+      "type": "number",
+      "placeholder": "(点击以展开说明)",
+      "desc": "选填，最大化提现，默认开启，要关闭就填0"
+    }],
+    "script": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/ks.js",
+    "author": "@cjf0423",
+    "repo": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/ks.js",
+    "icons": ["https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/kuaishou.png",
+        "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/kuaishou.png"]
+  },
+  {
     "id": "ddgy",
     "name": "滴滴果园leaf",
     "keys": ["ddgyToken"],
