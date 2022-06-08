@@ -204,7 +204,7 @@
     }, {
       "id": "ksWithdrawTime",
       "name": "提现时间",
-      "val": "8",
+      "val": "9",
       "type": "number",
       "placeholder": "(点击以展开说明)",
       "desc": "选填，提现时间，默认为9，即9点提现"
