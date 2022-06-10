@@ -277,6 +277,27 @@
         "https://raw.githubusercontent.com/Orz-3/mini/master/Color/videoqq.png"]
   },
   {
+    "id": "gjzz",
+    "name": "赶集直招",
+    "keys": ["gjzzCookie"],
+    "descs_html": [
+      "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/leafTheFish/DeathNote/main/gjzz.js\">脚本注释</a></h4>"
+    ],
+    "settings": [{
+      "id": "gjzzCookie",
+      "name": "Cookie",
+      "val": "",
+      "type": "text",
+      "placeholder": "(点击以展开说明)",
+      "desc": "可以用58的ck直接跑，捉包把 PPU=UID=xxxxx; 这一串填到gjzzCookie里，多账号@或者换行隔开"
+    }],
+    "script": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/gjzz.js",
+    "author": "@cjf0423",
+    "repo": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/gjzz.js",
+    "icons": ["https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/gjzz.png",
+        "https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/gjzz.png"]
+  },
+  {
   "id": 
   "JD_Cookies_remark", 
   "name": "登陆助手", 
