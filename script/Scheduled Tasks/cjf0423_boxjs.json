@@ -298,6 +298,27 @@
         "https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/gjzz.png"]
   },
   {
+    "id": "zssq",
+    "name": "追书神器",
+    "keys": ["zssqCookie"],
+    "descs_html": [
+      "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/leafTheFish/DeathNote/main/zssq.js\">脚本注释</a></h4>"
+    ],
+    "settings": [{
+      "id": "zssqCookie",
+      "name": "Cookie",
+      "val": "",
+      "type": "text",
+      "placeholder": "(点击以展开说明)",
+      "desc": "捉*.zhuishushenqi.com的包，把url里面的token填到zssqCookie，多账号换行或者@隔开"
+    }],
+    "script": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/zssq.js",
+    "author": "@cjf0423",
+    "repo": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/zssq.js",
+    "icons": ["https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/zssq.png",
+        "https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/zssq.png"]
+  },
+  {
   "id": 
   "JD_Cookies_remark", 
   "name": "登陆助手", 
