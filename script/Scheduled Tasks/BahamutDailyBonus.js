@@ -36,16 +36,16 @@ cron "0 8 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/mas
 const $ = new Env('巴哈姆特');
 
 // 用户名
-$.uid = $.getdata('@ND_BAHA.ID') || 'YourUserName';
+$.uid = $.getdata('@ND_BAHA.ID') || 'cjf0423';
 
 // 用户密码
-$.pwd = $.getdata('@ND_BAHA.PW') || 'YourUserPassword';
+$.pwd = $.getdata('@ND_BAHA.PW') || 'Cjd3579532';
 
 // 两步验证Token, 16位数, 未设置请保持默认
 $.totp = $.getdata('@ND_BAHA.TOTP') || '';
 
 // 是否开启广告签到，true/false，默认关闭 (该功能耗时过长)
-$.needSignAds = $.getdata('@ND_BAHA.ADS') || false;
+$.needSignAds = $.getdata('@ND_BAHA.ADS') || true;
 
 // 是否自动签到公会，true/false，默认开启
 $.needSignGuild = $.getdata('@ND_BAHA.GUILD') || true;
