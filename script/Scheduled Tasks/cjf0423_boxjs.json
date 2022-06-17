@@ -70,17 +70,17 @@
       "desc": "饿了么app 或 支付宝饿了么小程序 或 微信饿了么小程序 -> 我的 -> 赚吃货豆h5.ele.me，把header里面的Cookie填进去elmCookie捉包里的Cookie全部内容"
     }, {
           "id": "elmScanTask", 
-          "val": 0, 
+          "val": "0", 
           "name": "扫描吃货豆任务开关", 
           "type": "radios", 
           "desc": "开启的话会使用账号1(不要把黑号放账号1)扫描所有吃货豆任务，但耗时较长(我机器大概需要7分钟)，关闭的话用内置任务列表完成隐藏任务。默认为关闭", 
           "items": [
             {
-              "key": 1, 
+              "key": "1", 
               "label": "开启"
             }, 
             {
-              "key": 0, 
+              "key": "0", 
               "label": "关闭"
             }
           ]
@@ -102,19 +102,19 @@
     }, {
           "id": "elmNotify",
           "name": "推送通知等级",
-          "val": 2,
+          "val": "2",
           "type": "selects",
           "items": [
             {
-              "key": 0,
+              "key": "0",
               "label": "只有CK失效时候会推送"
             },
             {
-              "key": 1,
+              "key": "1",
               "label": "CK失效或者抢到10元券才会推送"
             },
             {
-              "key": 2,
+              "key": "2",
               "label": "正常推送"
             }
           ],
