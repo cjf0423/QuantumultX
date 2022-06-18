@@ -13,16 +13,25 @@
       "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/leafTheFish/DeathNote/main/meituan.js\">脚本注释</a></h4>"
     ],
     "settings": [{
-      "id": "meituanNotify",
-      "name": "推送开关",
-      "val": "1",
-      "type": "number",
-      "placeholder": "(点击以展开说明)",
-      "desc": "推送开关变量meituanNotify，填0为不推送，填1或其他推送，默认为1"
-    }, {
+          "id": "meituanNotify", 
+          "val": "1", 
+          "name": "推送开关", 
+          "type": "radios", 
+          "desc": "默认开启", 
+          "items": [
+            {
+              "key": "1", 
+              "label": "开启"
+            }, 
+            {
+              "key": "0", 
+              "label": "关闭"
+            }
+          ]
+        }, {
       "id": "meituanCookie",
       "name": "美团cookie",
-      "val": "token=",
+      "val": "",
       "type": "text",
       "placeholder": "(点击以展开说明)",
       "desc": "把*.meituan.com包里的userId(可选，用于区别多账号捉包),token填到meituanCookie里，多账号换行或者@隔开。格式：export meituanCookie='userId=12345678&token=ccccccccccccccccc'userId可以删掉不填"
