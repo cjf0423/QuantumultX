@@ -294,12 +294,22 @@
       "type": "text",
       "desc": "捉任意game.xiaojukeji.com的包，把body里的uid和token用&连起来填到变量ddgyToken,uid其实不重要，只是用来区分token所属的账号，方便重写。手动捉包的话uid随便填都可以多账号换行或者@隔开重写多账号直接换号捉就行"
     }, {
-      "id": "ddgyNotify",
-      "name": "推送开关",
-      "val": "",
-      "type": "text",
-      "desc": "默认为打开。设置为0就关闭，只在CK失效或者果树成熟时候通知；设置为1就开启，每次运行后通知"
-    }],
+          "id": "ddgyNotify", 
+          "val": "1", 
+          "name": "推送开关", 
+          "type": "radios", 
+          "desc": "关闭:只在CK失效或者果树成熟时候通知；开启:每次运行后通知; 默认为开启", 
+          "items": [
+            {
+              "key": "1", 
+              "label": "开启"
+            }, 
+            {
+              "key": "0", 
+              "label": "关闭"
+            }
+          ]
+        }],
     "script": "https://raw.githubusercontent.com/cjf0423/ZIYE00/leafTheFish/ddgy.js",
     "author": "@cjf0423",
     "repo": "https://raw.githubusercontent.com/cjf0423/ZIYE00/leafTheFish/ddgy.js",
