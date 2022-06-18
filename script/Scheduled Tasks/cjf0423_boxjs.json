@@ -248,7 +248,7 @@
   {
     "id": "ks",
     "name": "快手leaf",
-    "keys": ["ksCookie", "ksWithdrawTime", "ksCash", "ksAggressive"],
+    "keys": ["ksCookie", "ksWithdrawTime", "ksCash"],
     "descs_html": [
       "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/leafTheFish/DeathNote/main/ks.js\">脚本注释</a></h4>"
     ],
