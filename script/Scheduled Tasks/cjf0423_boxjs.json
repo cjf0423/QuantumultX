@@ -135,13 +135,6 @@
       "type": "text",
       "placeholder": "(点击以展开说明)",
       "desc": "需要在设置的抢券时间提前1分钟跑，默认9:59:59:950开始抢，连续抢50次(大约0.5秒)可以自己配置开始抢券的时间，把elmOrderTime设置成开始的时间，格式(小时:分钟:秒:毫秒)，注意要用英文冒号，如export elmOrderTime=9:59:59:950"
-    }, {
-      "id": "elmProxy",
-      "name": "配置代理",
-      "val": "",
-      "type": "text",
-      "placeholder": "(点击以展开说明)",
-      "desc": "可选，代理地址(目前应该只支持http或者https)，默认为空即不代理。在服务器上跑的可以设置代理，格式为 IP:端口"
     }],
     "script": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/elm.js",
     "author": "@cjf0423",
