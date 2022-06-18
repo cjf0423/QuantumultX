@@ -59,7 +59,7 @@
   {
     "id": "elmleaf",
     "name": "饿了么leaf",
-    "keys": ["elmCookie", "elmOrderFlag", "elmScanTask", "elmScanConcurrency", "elmOrderAmount", "elmNotify", "elmOrderTime"],
+    "keys": ["elmCookie", "elmOrderFlag", "elmScanConcurrency", "elmOrderAmount", "elmOrderTime"],
     "descs_html": [
       "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/leafTheFish/DeathNote/main/elm.js\">脚本注释</a></h4>"
     ],
