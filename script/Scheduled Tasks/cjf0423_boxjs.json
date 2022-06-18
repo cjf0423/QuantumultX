@@ -253,13 +253,26 @@
       "placeholder": "(点击以展开说明)",
       "desc": "选填，提现时间，默认为9，即9点提现"
     }, {
-      "id": "ksNotify",
-      "name": "推送通知等级",
-      "val": "1",
-      "type": "number",
-      "placeholder": "(点击以展开说明)",
-      "desc": "选填，默认为1。 0：不通知，1：提现时间通知，2：每次运行通知"
-    }, {
+          "id": "ksNotify",
+          "name": "推送通知等级",
+          "val": "1",
+          "type": "selects",
+          "items": [
+            {
+              "key": "0",
+              "label": "不通知"
+            },
+            {
+              "key": "1",
+              "label": "提现时间通知"
+            },
+            {
+              "key": "2",
+              "label": "每次运行通知"
+            }
+          ],
+          "desc": "默认提现时间通知"
+        }, {
       "id": "ksCash",
       "name": "提现金额",
       "val": "",
@@ -267,13 +280,22 @@
       "placeholder": "(点击以展开说明)",
       "desc": "选填，默认为空。填了就按这个数字固定额度填写，例如固定提2块就填2"
     }, {
-      "id": "ksAggressive",
-      "name": "最大化提现",
-      "val": "1",
-      "type": "number",
-      "placeholder": "(点击以展开说明)",
-      "desc": "选填，最大化提现，默认开启，要关闭就填0"
-    }],
+          "id": "ksAggressive", 
+          "val": "1", 
+          "name": "最大化提现", 
+          "type": "radios", 
+          "desc": "选填，最大化提现，默认开启", 
+          "items": [
+            {
+              "key": "1", 
+              "label": "开启"
+            }, 
+            {
+              "key": "0", 
+              "label": "关闭"
+            }
+          ]
+        }],
     "script": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/ks.js",
     "author": "@cjf0423",
     "repo": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/ks.js",
