@@ -8,7 +8,7 @@
    {
     "id": "meituan",
     "name": "美团",
-    "keys": ["meituanNotify", "meituanCookie", "meituanDrawKeyword", "meituanPosition"],
+    "keys": ["meituanCookie", "meituanDrawKeyword", "meituanPosition"],
     "descs_html": [
       "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/leafTheFish/DeathNote/main/meituan.js\">脚本注释</a></h4>"
     ],
@@ -152,7 +152,7 @@
   {
     "id": "Elm",
     "name": "饿了么吃货豆",
-    "keys": ["elmck", "elmdh", "elmdhzh", "SM_STARTTIME"],
+    "keys": ["elmck", "elmdhzh", "SM_STARTTIME"],
     "descs_html": [
       "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://gitee.com/xiecoll/radish-script/raw/master/ELM/lb_elm.js\">脚本注释</a></h4>"
     ],
@@ -193,7 +193,7 @@
   {
     "id": "ksjsb",
     "name": "快手极速版leaf",
-    "keys": ["ksjsbCookie", "ksjsbWithdrawTime", "ksjsbNotify", "ksjsbCash"],
+    "keys": ["ksjsbCookie", "ksjsbWithdrawTime", "ksjsbCash"],
     "descs_html": [
       "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/leafTheFish/DeathNote/main/ksjsb.js\">脚本注释</a></h4>"
     ],
@@ -248,7 +248,7 @@
   {
     "id": "ks",
     "name": "快手leaf",
-    "keys": ["ksCookie", "ksWithdrawTime", "ksNotify", "ksCash", "ksAggressive"],
+    "keys": ["ksCookie", "ksWithdrawTime", "ksCash", "ksAggressive"],
     "descs_html": [
       "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/leafTheFish/DeathNote/main/ks.js\">脚本注释</a></h4>"
     ],
@@ -319,7 +319,7 @@
   {
     "id": "ddgy",
     "name": "滴滴果园leaf",
-    "keys": ["ddgyToken", "ddgyNotify"],
+    "keys": ["ddgyToken"],
     "descs_html": [
       "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/cjf0423/ZIYE00/leafTheFish/ddgy.js\">脚本注释</a></h4>"
     ],
