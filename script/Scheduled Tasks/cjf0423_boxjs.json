@@ -3,7 +3,7 @@
   "name": "自用boxjs订阅",
   "author": "@cjf0423",
   "icon": "https://raw.githubusercontent.com/cjf0423/QuantumultX/master/png/Avatar/qikuo.png",
-  "repo": "https://github.com/Peng-YM/QuanX",
+  "repo": "https://github.com/cjf0423/QuantumultX",
   "apps": [
    {
     "id": "meituan",
