@@ -386,6 +386,26 @@
         "https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/pddgy.png"]
   },
   {
+    "id": "dyddgy",
+    "name": "抖音抖抖果园",
+    "keys": ["ddgyCk"],
+    "descs_html": [
+      "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/LinYuanovo/scripts/main/dygy.js\">脚本注释</a></h4>"
+    ],
+    "settings": [{
+      "id": "ddgyCk",
+      "name": "Cookie",
+      "val": "",
+      "type": "text",
+      "desc": "进去小程序浇水后抓一个Cookie"
+    }],
+    "script": "https://raw.githubusercontent.com/LinYuanovo/scripts/main/dygy.js",
+    "author": "@cjf0423",
+    "repo": "https://raw.githubusercontent.com/LinYuanovo/scripts/main/dygy.js",
+    "icons": ["https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/dyddgy.png",
+        "https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/dyddgy.png"]
+  },
+  {
     "id": "txspfl",
     "name": "腾讯视频-福利中心",
     "keys": ["txspCookie"],
