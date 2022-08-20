@@ -90,7 +90,8 @@ IP-CIDR,59.111.181.60/32,国内媒体
 # > QQMusic
 USER-AGENT,QQ%e9%9f%b3%e4%b9%90*,国内媒体
 USER-AGENT,QQMusic*,国内媒体
-HOST-SUFFIX,*music.qq.com,国内媒体
+# HOST-SUFFIX,*music.qq.com,国内媒体
+host-keyword,music.qq.com,国内媒体
 HOST-SUFFIX,y.qq.com,国内媒体
 HOST,aqqmusic.tc.qq.com,国内媒体
 
