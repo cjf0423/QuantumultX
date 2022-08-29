@@ -329,6 +329,34 @@
     "icons": ["https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/kuaishou.png",
         "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/kuaishou.png"]
   },
+     {
+    "id": "kgyy",
+    "name": "酷狗音乐",
+    "keys": ["kgyyCookie", "kgWithdrawTime"],
+    "descs_html": [
+      "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"hhttps://raw.githubusercontents.com/leafTheFish/DeathNote/main/kugou.js\">脚本注释</a></h4>"
+    ],
+    "settings": [{
+      "id": "kgyyCookie",
+      "name": "酷狗音乐cookie",
+      "val": "",
+      "type": "text",
+      "placeholder": "(点击以展开说明)",
+      "desc": "捉包把token, userid和openid填到kgyyCookie，多账户换行隔开格式：token=xxxx&userid=12345678&openid=xxxxs openid提现用，非必须，没捉到就删掉"
+    }, {
+      "id": "kgWithdrawTime",
+      "name": "提现时间",
+      "val": "9",
+      "type": "number",
+      "placeholder": "(点击以展开说明)",
+      "desc": "默认9点提现，需要改的把提现时间(小时)填到kgWithdrawTime，如：export kgWithdrawTime=10"
+    }],
+    "script": "https://raw.githubusercontents.com/leafTheFish/DeathNote/main/kugou.js",
+    "author": "@cjf0423",
+    "repo": "https://raw.githubusercontents.com/leafTheFish/DeathNote/main/kugou.js",
+    "icons": ["https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/kgyy.png",
+        "https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/kgyy.png"]
+  },
   {
     "id": "ddgy",
     "name": "滴滴果园leaf",
