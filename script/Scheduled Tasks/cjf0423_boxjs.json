@@ -358,6 +358,27 @@
         "https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/kgyy.png"]
   },
   {
+    "id": "qtx",
+    "name": "青碳行",
+    "keys": ["qtxck"],
+    "descs_html": [
+      "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/liuqi6968/-/main/qtx_ios.js\">脚本注释</a></h4>"
+    ],
+    "settings": [{
+      "id": "qtxck",
+      "name": "青碳行cookie",
+      "val": "",
+      "type": "text",
+      "placeholder": "(点击以展开说明)",
+      "desc": "变量  qtxck token#deviceCodin多账号@分割多账号只测试青龙 "
+    }],
+    "script": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/ksjsb.js",
+    "author": "@cjf0423",
+    "repo": "https://raw.githubusercontent.com/liuqi6968/-/main/qtx_ios.js",
+    "icons": ["https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/qtx.png",
+        "https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/qtx.png"]
+  },
+  {
     "id": "ddgy",
     "name": "滴滴果园leaf",
     "keys": ["ddgyToken"],
