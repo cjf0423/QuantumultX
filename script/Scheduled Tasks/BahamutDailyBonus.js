@@ -54,7 +54,7 @@ $.needSignGuild = $.getdata('@ND_BAHA.GUILD') || true;
 $.needAnswer = $.getdata('@ND_BAHA.ANSWER') || true;
 
 //Bark APP 通知推送Key
-$.barkKey = '';
+$.barkKey = '6PfYvx7zzVWkDUWrDSjkwX';
 
 // 为通知准备的空数组
 $.notifyMsg = [];
