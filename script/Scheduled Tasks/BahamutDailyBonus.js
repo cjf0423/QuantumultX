@@ -45,7 +45,7 @@ $.pwd = $.getdata('@ND_BAHA.PW') || 'Cjd3579532';
 $.totp = $.getdata('@ND_BAHA.TOTP') || '';
 
 // 是否开启广告签到，true/false，默认关闭 (该功能耗时过长)
-$.needSignAds = $.getdata('@ND_BAHA.ADS') || false;
+$.needSignAds = $.getdata('@ND_BAHA.ADS') || true;
 
 // 是否自动签到公会，true/false，默认开启
 $.needSignGuild = $.getdata('@ND_BAHA.GUILD') || true;
