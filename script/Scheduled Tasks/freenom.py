@@ -21,9 +21,9 @@ except:
     exit(-1)
 
 # 没有设置环境变量可以在此处直接填写freenom用户名，多号用&分割，示例：'123@qq.com&abc@163.com'
-username = 'www.cjf0423@qq.com'
+username = ''
 # 没有设置环境变量可以在此处直接填写freenom密码，账号对应密码同样用&分割，示例：'psd1&psd2'
-password = 'Cjd3579532'
+password = ''
 # 密码含&的，设置echa_split = '' ,示例：cha_split = ','代表用逗号分割
 cha_split = ''
 # 登录url
