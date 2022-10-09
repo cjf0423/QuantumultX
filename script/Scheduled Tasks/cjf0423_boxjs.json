@@ -436,6 +436,34 @@
         "https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/didi_checkin.png"]
   },
   {
+    "id": "ketui",
+    "name": "可推",
+    "keys": ["ketuick", "ketuicookie"],
+    "descs_html": [
+      "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"http://nm6.xyz/scripts/ketui.js\">脚本注释</a></h4>"
+    ],
+    "settings": [{
+      "id": "ketuick",
+      "name": "可推cookie",
+      "val": "",
+      "type": "text",
+      "placeholder": "(点击以展开说明)",
+      "desc": "点击刷一刷 看完一个视频 去https://api.ketui.cn/video-helper/miningTask/getGiftappId=vh&appVersion=1.3.5&configVersion=0&id=ksVideo&osType=ios找Authorization复制到变量  ketuick"
+    }, {
+      "id": "ketuicookie",
+      "name": "可推刷一刷cookie",
+      "val": "",
+      "type": "text",
+      "placeholder": "(点击以展开说明)",
+      "desc": "点击刷一刷 看完一个视频 去https://api.ketui.cn/video-helper/miningTask/getGiftappId=vh&appVersion=1.3.5&configVersion=0&id=ksVideo&osType=ios找cookie复制到变量   ketuicookie"
+    }],
+    "script": "http://nm6.xyz/scripts/ketui.js",
+    "author": "@cjf0423",
+    "repo": "https://raw.githubusercontent.com/cjf0423/ZIYE00/leafTheFish/youqiying.js",
+    "icons": ["https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/kt.png",
+        "https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/kt.png"]
+  },
+  {
     "id": "pdd",
     "name": "拼多多 多多果园",
     "keys": ["pddck"],
