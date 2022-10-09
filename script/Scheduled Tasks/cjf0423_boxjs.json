@@ -456,6 +456,27 @@
         "https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/pddgy.png"]
   },
   {
+    "id": "youqiying",
+    "name": "优企盈",
+    "keys": ["yqyCookie"],
+    "descs_html": [
+      "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/cjf0423/ZIYE00/leafTheFish/youqiying.js\">脚本注释</a></h4>"
+    ],
+    "settings": [{
+      "id": "yqyCookie",
+      "name": "优企盈cookie",
+      "val": "",
+      "type": "text",
+      "placeholder": "(点击以展开说明)",
+      "desc": "可以登录后捉包把请求头的 token值 填到变量里，也可以直接把 手机#密码 填进变量"
+    }],
+    "script": "https://raw.githubusercontent.com/cjf0423/ZIYE00/leafTheFish/youqiying.js",
+    "author": "@cjf0423",
+    "repo": "https://raw.githubusercontent.com/cjf0423/ZIYE00/leafTheFish/youqiying.js",
+    "icons": ["https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/yqy.png",
+        "https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/yqy.png"]
+  },
+  {
     "id": "dyddgy",
     "name": "抖音抖抖果园",
     "keys": ["ddgyCk"],
