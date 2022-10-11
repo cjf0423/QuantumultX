@@ -586,6 +586,121 @@
     "icons": ["https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/zssq.png",
         "https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/zssq.png"]
   },
+    {
+      "id": "jd_fruit",
+      "name": "东东农场",
+      "keys": ["jd_fruit_inviter"],
+      "descs_html": [
+        "请在输入框输入跟你互助的东东农场的好友互助码",
+        "同一个京东账号的好友邀请码用@隔开,不同京东账号互助码用换行(return按键)隔开。例：<br/>账号1-好友1邀请码@账号1邀请码-好友2邀请码<br/><br/>账号2-好友1邀请码@账号2-好友2邀请码",
+        "下方输入框给出一个示例,自己使用时删除示例邀请码然后按示例填写(只填邀请码)即可"
+      ],
+      "settings": [
+        {
+          "id": "jdFruitNotify",
+          "name": "静默运行",
+          "val": false,
+          "type": "boolean",
+          "desc": "运行东东农场脚本时不发出系统通知"
+        },
+        {
+          "id": "jdFruitBeanCard",
+          "name": "使用水滴换豆卡",
+          "val": false,
+          "type": "boolean",
+          "desc": "使用水滴换豆卡(如果出现限时活动是100g水换20豆,此时比浇水划算,推荐换豆)"
+        },
+        {
+          "id": "jd_fruit_inviter",
+          "name": "东东农场好友邀请码 列表",
+          "val": "",
+          "placeholder": "账号1的好友1邀请码@账号1的好友2邀请码\n\n账号2的好友1邀请码@账号2的好友2邀请码",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "好友邀请码,同一个京东账号的好友邀请码用@隔开,不同京东账号互助码用换行(return按键)隔开"
+        }
+      ],
+      "author": "@lxk0301",
+      "repo": "https://gitee.com/lxk0301/jd_scripts/tree/master",
+      "script": "https://gitee.com/lxk0301/jd_scripts/raw/master/jd_fruit.js",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdnc_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png"
+      ]
+    },
+    {
+      "id": "jd_pet",
+      "name": "东东萌宠",
+      "keys": ["jd_pet_inviter"],
+      "descs_html": [
+        "请在输入框输入跟你互助的东东萌宠的好友互助码",
+        "同一个京东账号的好友邀请码用@隔开,不同京东账号互助码用换行(return按键)隔开。例：<br/>账号1-好友1邀请码@账号1邀请码-好友2邀请码<br/><br/>账号2-好友1邀请码@账号2-好友2邀请码",
+        "下方输入框给出一个示例,自己使用时删除示例邀请码然后按示例填写(只填邀请码)即可"
+      ],
+      "settings": [
+        {
+          "id": "jdPetNotify",
+          "name": "静默运行",
+          "val": false,
+          "type": "boolean",
+          "desc": "运行东东萌宠脚本时不发出系统通知"
+        },
+        {
+          "id": "jd_pet_inviter",
+          "name": "东东萌宠好友邀请码 列表",
+          "val": "",
+          "placeholder": "账号1的好友1邀请码@账号1的好友2邀请码\n\n账号2的好友1邀请码@账号2的好友2邀请码",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "好友邀请码,同一个京东账号的好友邀请码用@隔开,不同京东账号互助码用换行(return按键)隔开"
+        }
+      ],
+      "author": "@lxk0301",
+      "repo": "https://gitee.com/lxk0301/jd_scripts/tree/master",
+      "script": "https://gitee.com/lxk0301/jd_scripts/raw/master/jd_pet.js",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdmc_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdmc.png"
+      ]
+    },
+    {
+      "id": "jd_plantBean",
+      "name": "京东种豆",
+      "keys": ["jd_plantbean_inviter"],
+      "descs_html": [
+        "请在输入框输入跟你互助的京东种豆得豆的好友互助码",
+        "同一个京东账号的好友邀请码用@隔开,不同京东账号互助码用换行(return按键)隔开。例：<br/>账号1-好友1邀请码@账号1邀请码-好友2邀请码<br/><br/>账号2-好友1邀请码@账号2-好友2邀请码",
+        "下方输入框给出一个示例,自己使用时删除示例邀请码然后按示例填写(只填邀请码)即可"
+      ],
+      "settings": [
+        {
+          "id": "jdPlantBeanNotify",
+          "name": "静默运行",
+          "val": true,
+          "type": "boolean",
+          "desc": "运行种豆脚本时不发出系统通知"
+        },
+        {
+          "id": "jd_plantbean_inviter",
+          "name": "京东种豆好友邀请码 列表",
+          "val": "",
+          "placeholder": "账号1的好友1邀请码@账号1的好友2邀请码\n\n账号2的好友1邀请码@账号2的好友2邀请码",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "好友邀请码,同一个京东账号的好友邀请码用@隔开,不同京东账号互助码用换行(return按键)隔开"
+        }
+      ],
+      "author": "@lxk0301",
+      "repo": "https://gitee.com/lxk0301/jd_scripts/tree/master",
+      "script": "https://gitee.com/lxk0301/jd_scripts/raw/master/jd_plantBean.js",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdzd_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdzd.png"
+      ]
+    },
   {
   "id": 
   "JD_Cookies_remark", 
