@@ -74,7 +74,7 @@
       "id": "elmCookie",
       "name": "饿了吗cookie",
       "val": "",
-      "type": "text",
+      "type": "textarea",
       "placeholder": "(点击以展开说明)",
       "desc": "饿了么app 或 支付宝饿了么小程序 或 微信饿了么小程序 -> 我的 -> 赚吃货豆h5.ele.me，把header里面的Cookie填进去elmCookie捉包里的Cookie全部内容，如果需要抢券，可以在对应的cookie后面加 orderFlag=1"
     }, {
