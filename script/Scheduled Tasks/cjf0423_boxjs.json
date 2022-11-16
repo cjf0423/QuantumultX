@@ -586,6 +586,27 @@
     "icons": ["https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/zssq.png",
         "https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/zssq.png"]
   },
+  {
+    "id": "meituanmaicai",
+    "name": "美团买菜",
+    "keys": ["jojo_mall_meituan"],
+    "descs_html": [
+      "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/JoJoJotarou/myScript/master/script/meituan/mall.meituan.cookie.js\">脚本注释</a></h4>"
+    ],
+    "settings": [{
+      "id": "jojo_mall_meituan",
+      "name": "美团买菜Token",
+      "val": "",
+      "type": "text",
+      "placeholder": "(点击以展开说明)",
+      "desc": "* @description: 方式1：美团APP -> 美团买菜 -> 我的 -> 买菜币 -> 去使用 -> 在退回上一级，QX提示成功即可* @description: 方式2：美团APP -> 美团买菜 -> 我的 -> 买菜币 -> 左滑一半做推出手势再松手（不要真的左滑退出） -> QX提示成功即可"
+    }],
+    "script": "https://raw.githubusercontent.com/JoJoJotarou/myScript/master/script/meituan/mall.meituan.mallcoin.task.js",
+    "author": "@cjf0423",
+    "repo": "https://raw.githubusercontent.com/JoJoJotarou/myScript/master/script/meituan/mall.meituan.mallcoin.task.js",
+    "icons": ["https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai.png",
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai.png"]
+  },
     {
       "id": "jd_fruit",
       "name": "东东农场",
