@@ -159,7 +159,7 @@
       "id": "elmck",
       "name": "饿了吗cookie",
       "val": "",
-      "type": "text",
+      "type": "textarea",
       "placeholder": "(点击以展开说明)",
       "desc": "饿了么ck"
     }, {
