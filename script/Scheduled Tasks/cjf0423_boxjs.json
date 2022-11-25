@@ -144,58 +144,31 @@
   }, 
   {
     "id": "Elm",
-    "name": "饿了么吃货豆",
-    "keys": ["elmck", "elmdhzh", "SM_STARTTIME", "elmtz"],
+    "name": "Leaf饿了么2",
+    "keys": ["elmck", "elmGrabCoupon", "elmCouponTime"],
     "descs_html": [
       "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/cjf0423/QuantumultX/master/script/Scheduled%20Tasks/lb_elm.js\">脚本注释</a></h4>"
     ],
     "settings": [{
-      "id": "elmdh",
-      "name": "兑换优惠券",
-      "val": false,
-      "type": "boolean",
-      "desc": "兑换优惠券，默认为false,开启兑换，如需开启兑换，请设置为true"
-    }, {
       "id": "elmck",
       "name": "饿了吗cookie",
       "val": "",
       "type": "textarea",
       "placeholder": "(点击以展开说明)",
-      "desc": "饿了么ck"
+      "desc": "CK可以填全部或者只填SID和cookie2，建议USERID也填上方便更新CK。"
     }, {
-      "id": "elmdhzh",
+      "id": "elmGrabCoupon",
       "name": "饿了吗兑换账号",
       "val": "",
       "type": "text",
       "placeholder": "(点击以展开说明)",
-      "desc": "例：1@2@3 设置账号123兑换，不设置默认全部"
+      "desc": "对应账号位置填上1(&隔开)"
     }, {
-      "id": "select",
-      "name": "搜索任务功能",
-      "val": false,
-      "type": "boolean",
-      "desc": "开启后会自动搜索任务，执行变慢，但豆子会多"
-    }, {
-      "id": "elmtz",
-      "name": "通知",
-      "val": "",
-      "type": "number",
-      "placeholder": "(点击以展开说明)",
-      "desc": "默认正常通知，1 为抢到卷通知，2 为ck过期通知"
-    }, {
-      "id": "SM_STARTTIME",
-      "name": "延迟",
-      "val": "60",
+      "id": "elmCouponTime",
+      "name": "兑换延迟",
+      "val": "9:59:59:200",
       "type": "text",
-      "placeholder": "",
-      "desc": "默认为60，当为60时，9点59分运行脚本，10点准时开枪，如果网络慢可以设置为59.960，则9点59分59.960秒开抢"
-    }, {
-      "id": "proxyUrl",
-      "name": "配置代理",
-      "val": "",
-      "type": "text",
-      "placeholder": "(点击以展开说明)",
-      "desc": "支持http,https,socks5代理，格式例子：http://ip或域名:端口"
+      "desc": "抢券时间默认为9点59分59秒200毫秒开始，需要改的话自己设置"
     }],
     "script": "https://raw.githubusercontent.com/cjf0423/QuantumultX/master/script/Scheduled%20Tasks/lb_elm.js",
     "author": "@cjf0423",
