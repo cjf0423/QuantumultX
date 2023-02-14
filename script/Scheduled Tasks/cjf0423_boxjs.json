@@ -177,160 +177,6 @@
         "https://raw.githubusercontent.com/Orz-3/task/master/elem.png"]
   },
   {
-    "id": "ksjsb",
-    "name": "快手极速版leaf",
-    "keys": ["ksjsbCookie", "ksjsbWithdrawTime", "ksjsbCash"],
-    "descs_html": [
-      "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/leafTheFish/DeathNote/main/ksjsb.js\">脚本注释</a></h4>"
-    ],
-    "settings": [{
-      "id": "ksjsbCookie",
-      "name": "快手cookie",
-      "val": "",
-      "type": "text",
-      "placeholder": "(点击以展开说明)",
-      "desc": "必填，快手cookie，可全部复制进来或者只复制kuaishou.api_st和did"
-    }, {
-      "id": "ksjsbWithdrawTime",
-      "name": "提现时间",
-      "val": "8",
-      "type": "number",
-      "placeholder": "(点击以展开说明)",
-      "desc": "选填，提现时间，默认为8，即8点提现"
-    }, {
-      "id": "ksjsbCash",
-      "name": "提现金额",
-      "val": "",
-      "type": "number",
-      "placeholder": "(点击以展开说明)",
-      "desc": "选填，默认为空。填了就按这个数字固定额度填写，例如固定提2块就填2"
-    }, {
-          "id": "ksjsbNotify",
-          "name": "推送通知等级",
-          "val": "1",
-          "type": "selects",
-          "items": [
-            {
-              "key": "0",
-              "label": "不通知"
-            },
-            {
-              "key": "1",
-              "label": "提现时间通知"
-            },
-            {
-              "key": "2",
-              "label": "每次运行通知"
-            }
-          ],
-          "desc": "默认提现时间通知"
-        }],
-    "script": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/ksjsb.js",
-    "author": "@cjf0423",
-    "repo": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/ksjsb.js",
-    "icons": ["https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/kuaishou.png",
-        "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/kuaishou.png"]
-  },
-  {
-    "id": "ks",
-    "name": "快手leaf",
-    "keys": ["ksCookie", "ksWithdrawTime", "ksCash"],
-    "descs_html": [
-      "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/leafTheFish/DeathNote/main/ks.js\">脚本注释</a></h4>"
-    ],
-    "settings": [{
-      "id": "ksCookie",
-      "name": "快手cookie",
-      "val": "",
-      "type": "text",
-      "placeholder": "(点击以展开说明)",
-      "desc": "必填，快手cookie，可全部复制进来或者只复制kuaishou.api_st和did"
-    }, {
-      "id": "ksWithdrawTime",
-      "name": "提现时间",
-      "val": "9",
-      "type": "number",
-      "placeholder": "(点击以展开说明)",
-      "desc": "选填，提现时间，默认为9，即9点提现"
-    }, {
-          "id": "ksNotify",
-          "name": "推送通知等级",
-          "val": "1",
-          "type": "selects",
-          "items": [
-            {
-              "key": "0",
-              "label": "不通知"
-            },
-            {
-              "key": "1",
-              "label": "提现时间通知"
-            },
-            {
-              "key": "2",
-              "label": "每次运行通知"
-            }
-          ],
-          "desc": "默认提现时间通知"
-        }, {
-      "id": "ksCash",
-      "name": "提现金额",
-      "val": "",
-      "type": "number",
-      "placeholder": "(点击以展开说明)",
-      "desc": "选填，默认为空。填了就按这个数字固定额度填写，例如固定提2块就填2"
-    }, {
-          "id": "ksAggressive", 
-          "val": "1", 
-          "name": "最大化提现", 
-          "type": "radios", 
-          "desc": "选填，最大化提现，默认开启", 
-          "items": [
-            {
-              "key": "1", 
-              "label": "开启"
-            }, 
-            {
-              "key": "0", 
-              "label": "关闭"
-            }
-          ]
-        }],
-    "script": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/ks.js",
-    "author": "@cjf0423",
-    "repo": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/ks.js",
-    "icons": ["https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/kuaishou.png",
-        "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/kuaishou.png"]
-  },
-     {
-    "id": "kgyy",
-    "name": "酷狗音乐",
-    "keys": ["kgyyCookie", "kgWithdrawTime"],
-    "descs_html": [
-      "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"hhttps://raw.githubusercontents.com/leafTheFish/DeathNote/main/kugou.js\">脚本注释</a></h4>"
-    ],
-    "settings": [{
-      "id": "kgyyCookie",
-      "name": "酷狗音乐cookie",
-      "val": "",
-      "type": "text",
-      "placeholder": "(点击以展开说明)",
-      "desc": "捉包把token, userid和openid填到kgyyCookie，多账户换行隔开格式：token=xxxx&userid=12345678&openid=xxxxs openid提现用，非必须，没捉到就删掉"
-    }, {
-      "id": "kgWithdrawTime",
-      "name": "提现时间",
-      "val": "9",
-      "type": "number",
-      "placeholder": "(点击以展开说明)",
-      "desc": "默认9点提现，需要改的把提现时间(小时)填到kgWithdrawTime，如：export kgWithdrawTime=10"
-    }],
-    "script": "https://raw.githubusercontents.com/leafTheFish/DeathNote/main/kugou.js",
-    "author": "@cjf0423",
-    "repo": "https://raw.githubusercontents.com/leafTheFish/DeathNote/main/kugou.js",
-    "icons": ["https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/kgyy.png",
-        "https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/kgyy.png"]
-  },
-  {
     "id": "qtx",
     "name": "青碳行",
     "keys": ["qtxck"],
@@ -350,27 +196,6 @@
     "repo": "https://raw.githubusercontent.com/liuqi6968/-/main/qtx_ios.js",
     "icons": ["https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/qtx.png",
         "https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/qtx.png"]
-  },
-  {
-    "id": "tyqh",
-    "name": "统一茄皇",
-    "keys": ["tybody"],
-    "descs_html": [
-      "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/LinYuanovo/scripts/main/tyqh.js\">脚本注释</a></h4>"
-    ],
-    "settings": [{
-      "id": "tybody",
-      "name": "统一茄皇cookie",
-      "val": "",
-      "type": "text",
-      "placeholder": "(点击以展开说明)",
-      "desc": "小程序：统一快乐星球，入口：活动->种番茄，功能：除了助力都能完成，抓包：api.xiaoyisz.com/qiehuang/ga/public/api/login  这个登录包里 body 部分的 全部"
-    }],
-    "script": "https://raw.githubusercontent.com/LinYuanovo/scripts/main/tyqh.js",
-    "author": "@cjf0423",
-    "repo": "https://raw.githubusercontent.com/LinYuanovo/scripts/main/tyqh.js",
-    "icons": ["https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/tyqh.png",
-        "https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/tyqh.png"]
   },
   {
     "id": "ddgy",
@@ -437,26 +262,6 @@
         "https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/kt.png"]
   },
   {
-    "id": "pdd",
-    "name": "拼多多 多多果园",
-    "keys": ["pddck"],
-    "descs_html": [
-      "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/liuqi6968/-/main/pdd.js\">脚本注释</a></h4>"
-    ],
-    "settings": [{
-      "id": "pddck",
-      "name": "Cookie",
-      "val": "",
-      "type": "text",
-      "desc": "手动抓取 mobile.yangkeduo.com 自己找;变量名pddck 格式pdduid&accesstoken#tubetoken"
-    }],
-    "script": "https://raw.githubusercontent.com/liuqi6968/-/main/pdd.js",
-    "author": "@cjf0423",
-    "repo": "https://raw.githubusercontent.com/liuqi6968/-/main/pdd.js",
-    "icons": ["https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/pddgy.png",
-        "https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/pddgy.png"]
-  },
-  {
     "id": "youqiying",
     "name": "优企盈",
     "keys": ["yqyCookie"],
@@ -476,46 +281,6 @@
     "repo": "https://raw.githubusercontent.com/cjf0423/ZIYE00/leafTheFish/youqiying.js",
     "icons": ["https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/yqy.png",
         "https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/yqy.png"]
-  },
-  {
-    "id": "dyddgy",
-    "name": "抖音抖抖果园",
-    "keys": ["ddgyCk"],
-    "descs_html": [
-      "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/LinYuanovo/scripts/main/dygy.js\">脚本注释</a></h4>"
-    ],
-    "settings": [{
-      "id": "ddgyCk",
-      "name": "Cookie",
-      "val": "",
-      "type": "text",
-      "desc": "进去小程序浇水后抓一个Cookie"
-    }],
-    "script": "https://raw.githubusercontent.com/LinYuanovo/scripts/main/dygy.js",
-    "author": "@cjf0423",
-    "repo": "https://raw.githubusercontent.com/LinYuanovo/scripts/main/dygy.js",
-    "icons": ["https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/dyddgy.png",
-        "https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/dyddgy.png"]
-  },
-  {
-    "id": "txspfl",
-    "name": "腾讯视频-福利中心",
-    "keys": ["txspCookie"],
-    "descs_html": [
-      "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/leafTheFish/DeathNote/main/txspfl.js\">脚本注释</a></h4>"
-    ],
-    "settings": [{
-      "id": "txspCookie",
-      "name": "Cookie",
-      "val": "",
-      "type": "text",
-      "desc": "腾讯视频app->我的->常用功能-福利兑换，捉里面pbaccess.video.qq.com的CK,放到txspCookie里，多账号换行或者@或者&隔开"
-    }],
-    "script": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/txspfl.js",
-    "author": "@cjf0423",
-    "repo": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/txspfl.js",
-    "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Color/videoqq.png",
-        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/videoqq.png"]
   },
   {
     "id": "gjzz",
@@ -580,7 +345,7 @@
     "icons": ["https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai.png",
         "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai.png"]
   },
-    {
+  {
       "id": "jd_fruit",
       "name": "东东农场",
       "keys": ["jd_fruit_inviter"],
@@ -622,8 +387,8 @@
         "https://raw.githubusercontent.com/58xinian/icon/master/jdnc_mini.png",
         "https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png"
       ]
-    },
-    {
+  },
+  {
       "id": "jd_pet",
       "name": "东东萌宠",
       "keys": ["jd_pet_inviter"],
@@ -658,8 +423,8 @@
         "https://raw.githubusercontent.com/58xinian/icon/master/jdmc_mini.png",
         "https://raw.githubusercontent.com/58xinian/icon/master/jdmc.png"
       ]
-    },
-    {
+  },
+  {
       "id": "jd_plantBean",
       "name": "京东种豆",
       "keys": ["jd_plantbean_inviter"],
@@ -694,7 +459,7 @@
         "https://raw.githubusercontent.com/58xinian/icon/master/jdzd_mini.png",
         "https://raw.githubusercontent.com/58xinian/icon/master/jdzd.png"
       ]
-    },
+  },
   {
   "id": 
   "JD_Cookies_remark", 
@@ -748,116 +513,6 @@
   "author": "@dompling", 
   "repo": "https://github.com/dompling/Script/blob/master/jd/jd_cookie_search.js", 
   "script": "https://raw.githubusercontent.com/dompling/Script/master/jd/jd_cookie_search.js"
-  },
-  {
-  "id": "zqfbjl",
-  "name": "中青奖励翻倍",
-  "keys": ["zqfbjlbody"], 
-  "repo": "https://github.com/liuqi6968/-/blob/main/zq_fbjl.js",
-  "script": "https://raw.githubusercontent.com/liuqi6968/-/main/zq_fbjl.js",     
-  "icons": [ "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
-  "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"
-  ]
-  },
-  {
-  "id": "zqercibox",
-  "name": "中青看点5分钟60分钟任务领取",
-  "keys": ["zqerciboxbody"], 
-  "repo": "https://github.com/cjf935257177/QuantumultX/blob/master/script/Scheduled%20Tasks/zq_5_60.js",
-  "script": "https://raw.githubusercontent.com/cjf935257177/QuantumultX/master/script/Scheduled%20Tasks/zq_5_60.js",     
-  "icons": [ "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
-  "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"
-  ]
-  },
-  {
-  "id": "jcercibox",
-  "name": "晶彩看点5分钟60分钟任务领取",
-  "keys": ["jcerciboxbody"], 
-  "repo": "https://github.com/liuqi6968/-/blob/main/Jc_5_60.js",
-  "script": "https://raw.githubusercontent.com/liuqi6968/-/main/Jc_5_60.js",     
-  "icons": [ "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
-  "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"
-  ]
-  },
-  {
-  "id": "jctqKkz",
-  "name": "水果天气看看赚",
-  "keys": ["jctqLookStartbody"], 
-  "repo": "https://github.com/leafxcy/JavaScript/blob/main/jctq/jctq_kkz.js",  
-  "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jctq/jctq_kkz.js", 
-  "icons": [ "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
-  "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"  
-  ]
-  },
-  {
-  "id": "jctqRead",
-  "name": "水果天气自动阅读",
-  "keys": ["jctqWzBody","jctqTimeBody"], 
-  "repo": "https://github.com/leafxcy/JavaScript/blob/main/jctq/jctq_read.js", 
-  "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jctq/jctq_read.js", 
-  "icons": [ "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
-  "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"
-  ]
-  },
-  {
-  "id": "jctqSign1",
-  "name": "水果天气日常",
-  "keys": ["jctqBubbleBody","jctqGiveBoxBody","jctqGoldBody","jctqVideoBody"], 
-  "repo": "https://github.com/leafxcy/JavaScript/blob/main/jctq/jctq_daily.js",
-  "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jctq/jctq_daily.js",     
-  "icons": [ "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
-  "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"
-  ]
-  },
-  {
-  "id": "jctqSign2",
-  "name": "水果天气任务签到",
-  "keys": ["jctqBoxbody","jctqSignDoubleBody"], 
-  "repo": "https://github.com/leafxcy/JavaScript/blob/main/jctq/jctq_reward.js",
-  "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jctq/jctq_reward.js",     
-  "icons": [ "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
-  "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"
-  ]
-  },
-  {
-  "id": "jctqCookie",
-  "name": "水果天气COOKIE",
-  "keys": ["jctqCookie"], 
-  "repo": "https://github.com/leafxcy/JavaScript/tree/main/jctq",
-  "script": "https://github.com/leafxcy/JavaScript/tree/main/jctq",     
-  "icons": [ "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
-  "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"
-  ]
-  },
-  {
-  "id": "jctq_withdraw",
-  "name": "水果天气提现",
-  "keys": ["jctqWithdraw","jctqWithdrawFlag"],
-  "settings": [{
-      "id": "jctqWithdrawFlag", 
-      "val": "0.3", 
-      "name": "提现金额", 
-      "type": "radios", 
-      "desc": "自动提现金额需和获取提现请求保持一致", 
-      "items": [
-        {
-          "key": "0.3", 
-          "label": "0.3元"
-        }, 
-        {
-          "key": "30", 
-          "label": "30元"
-        }
-      ]
-    }
-    ],
-
-  "repo": "https://github.com/leafxcy/JavaScript/blob/main/jctq/jctq_reward.js",
-  "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jctq/jctq_reward.js",     
-  "icons": [ 
-  "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png",
-  "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"
-  ]
   },
   {
     "id": "PushBoxjsTask",
