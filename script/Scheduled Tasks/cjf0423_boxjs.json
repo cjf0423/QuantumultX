@@ -860,30 +860,73 @@
   ]
   },
   {
-  "id": "PushBoxjsCookie",
-  "name": "V2pCookie",
-  "keys": ["v2purl", "v2token"],
-  "settings": [{
-      "id": "v2pcookieupdate",
-      "name": "V2P上传任务",
-      "val": false,
-      "type": "boolean",
-      "desc": "打开才会上传cookie,用来刚开始使用的时候。"
-    }, 
-    {
-      "id": "v2purl",
-      "name": "主页地址",
-      "val": "",
-      "type": "text",
-      "desc": "请到设置查询,例子:http://192.168.1.102:12521"
-    },
-    {
-      "id": "v2token",
-      "name": "WEBHOOK TOKEN",
-      "val": "",
-      "type": "text",
-      "desc": "请到设置查询,例子:a8c259b2-67fe-D-7bfdf1f55cb3"
-    }
+    "id": "PushBoxjsTask",
+    "name": "V2pTask",
+    "keys": ["v2purl", "v2token", "v2pblacklist"],
+    "settings": [{
+        "id": "v2ptaskupdate",
+        "name": "V2P上传任务",
+        "val": false,
+        "type": "boolean",
+        "desc": "打开才会上传定时任务,用来刚开始使用的时候"
+      },
+      {
+        "id": "jdtaskupdate",
+        "name": "京东上传任务",
+        "val": false,
+        "type": "boolean",
+        "desc": "用来打开上传定时任务包含京东系列"
+      },
+      {
+        "id": "v2pblacklist",
+        "name": "上传黑名单",
+        "val": "",
+        "type": "textarea",
+        "desc": "删除你要上传的任务对象"
+      },
+      {
+        "id": "v2purl",
+        "name": "主页地址",
+        "val": "",
+        "type": "text",
+        "desc": "请到设置查询,例子:http://192.168.1.102:12521"
+      },
+      {
+        "id": "v2token",
+        "name": "WEBHOOK TOKEN",
+        "val": "",
+        "type": "text",
+        "desc": "请到设置查询,例子:a8c259b2-67fe-D-7bfdf1f55cb3"
+      }
+    ],
+    "author": "@cenbomin",
+    "repo": ["https://raw.githubusercontent.com/CenBoMin/GithubSync"],
+    "script": "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/ELECV2PJS/PushTask_elecV2p.js",
+    "icons": ["https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/elecv2p-mini.png", "https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/elecv2p.png"]
+  }, {
+    "id": "PushBoxjsCookie",
+    "name": "V2pCookie",
+    "keys": ["v2purl", "v2token"],
+    "settings": [{
+        "id": "v2pcookieupdate",
+        "name": "V2P上传任务",
+        "val": false,
+        "type": "boolean",
+        "desc": "打开才会上传cookie,用来刚开始使用的时候。"
+      }, {
+        "id": "v2purl",
+        "name": "主页地址",
+        "val": "",
+        "type": "text",
+        "desc": "请到设置查询,例子:http://192.168.1.102:12521"
+      },
+      {
+        "id": "v2token",
+        "name": "WEBHOOK TOKEN",
+        "val": "",
+        "type": "text",
+        "desc": "请到设置查询,例子:a8c259b2-67fe-D-7bfdf1f55cb3"
+      }
       ],
   "author": "@cenbomin",
   "repo": ["https://raw.githubusercontent.com/CenBoMin/GithubSync"],
