@@ -80,13 +80,13 @@ const nowDate = parseInt((new Date().getTime() / 1000).toString());  // 当前�
 const zeroDate = (nowDate - (nowDate % 86400) - 3600 * 8) * 1000;  // 今日零点时间戳
 let productInfo = [], message = '', CookieArr = [], Cookie = '', DeviceID = '';
 
-let MT_PROVINCE = $.getdata('MT_PROVINCE') || '广东省';
-let MT_CITY = $.getdata('MT_CITY') || '广州市';
-let MT_DISTRICT = $.getdata('MT_DISTRICT') || '';
+let MT_PROVINCE = $.getdata('MT_PROVINCE') || '浙江省';
+let MT_CITY = $.getdata('MT_CITY') || '嘉兴市';
+let MT_DISTRICT = $.getdata('MT_DISTRICT') || '桐乡市|南湖区|秀洲区|海宁市';
 let MT_ITEM_BLACK = $.getdata('MT_ITEM_BLACK') || '2478|10056';
 let MT_TOKENS = $.getdata('MT_TOKENS') || '';
 let MT_VERSION = $.getdata('MT_VERSION') || '1.4.9';
-let MT_USERAGENT = $.getdata('MT_USERAGENT') || 'iOS;16.1.2;Apple;?unrecognized?';
+let MT_USERAGENT = $.getdata('MT_USERAGENT') || 'iOS;16.7;Apple;?unrecognized?';
 let MT_R = $.getdata('MT_R') || 'clips_OlU6TmFRag5rCXwbNAQ/Tz1SKlN8THcecBp/HGhHdw==';
 
 if ($.isNode()) {
