@@ -24,7 +24,7 @@ https://raw.githubusercontent.com/FoKit/Scripts/main/rewrite/get_maotai_token.sg
 hostname = %APPEND% app.moutai519.com.cn
 
 [Script]
-茅台Token = type=http-request,pattern=^https:\/\/app\.moutai519\.com\.cn\/xhr\/front\/mall\/message\/unRead\/query,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/i-maotai.js
+茅台Token = type=http-request,pattern=^https:\/\/app\.moutai519\.com\.cn\/xhr\/front\/mall\/message\/unRead\/query,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/cjf0423/QuantumultX/master/script/Scheduled%20Tasks/i-maotai.js
 
 i 茅台 = type=cron,cronexp=17 9 * * *,timeout=60,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/i-maotai.js,script-update-interval=0
 
