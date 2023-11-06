@@ -343,6 +343,27 @@
         "https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/kt.png"]
   },
   {
+    "id": "gladosnew",
+    "name": "GLaDOS(新版)",
+    "keys": ["glados_userSignKey"],
+    "descs_html": [
+      "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://gist.githubusercontent.com/ddgksf2013/32b3d37d78433a34370cbfb69780160d/raw/glados.js\">脚本注释</a></h4>"
+    ],
+    "settings": [{
+      "id": "glados_userSignKey",
+      "name": "GLaDOScookie",
+      "val": "",
+      "type": "text",
+      "placeholder": "(点击以展开说明)",
+      "desc": "获取ck看脚本说明"
+    }],
+    "script": "https://gist.githubusercontent.com/ddgksf2013/32b3d37d78433a34370cbfb69780160d/raw/glados.js",
+    "author": "@cjf0423",
+    "repo": "https://gist.githubusercontent.com/ddgksf2013/32b3d37d78433a34370cbfb69780160d/raw/glados.js",
+    "icons": ["https://raw.githubusercontent.com/58xinian/icon/master/glados1.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/glados1.png"]
+  },
+  {
     "id": "youqiying",
     "name": "优企盈",
     "keys": ["yqyCookie"],
