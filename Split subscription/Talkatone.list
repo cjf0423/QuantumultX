@@ -1,0 +1,10 @@
+# NAME: Talkatone
+# UPDATED: 2023-10-28 02:09:55
+# DOMAIN: 1
+# IP-CIDR: 4
+# TOTAL: 5
+host-suffix, tktn.be, Talkatone
+ip-cidr, 50.117.27.0/24, Talkatone
+ip-cidr, 69.46.75.0/24, Talkatone
+ip-cidr, 205.164.56.29/24, Talkatone
+ip-cidr, 63.251.124.0/24, Talkatone
