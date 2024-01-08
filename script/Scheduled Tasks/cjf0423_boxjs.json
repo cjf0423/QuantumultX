@@ -279,6 +279,27 @@
         "https://raw.githubusercontent.com/cjf0423/QuantumultX/master/icon/qtx.png"]
   },
   {
+    "id": "gaodedache",
+    "name": "高德打车签到",
+    "keys": ["GD_Val"],
+    "descs_html": [
+      "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js\">脚本注释</a></h4>"
+    ],
+    "settings": [{
+      "id": "GD_Val",
+      "name": "高德打车cookie",
+      "val": "",
+      "type": "text",
+      "placeholder": "(点击以展开说明)",
+      "desc": "获取Cookie方法 ，QX开重写，进入【高德地图/微信/支付宝 小程序[高德打车]，打车，福利中心】，任意一端获取成功即可3端签到"
+    }],
+    "script": "https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js",
+    "author": "@cjf0423",
+    "repo": "https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js",
+    "icons": ["https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai.png",
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai.png"]
+  },
+  {
     "id": "ddgy",
     "name": "滴滴果园leaf",
     "keys": ["ddgyToken"],
