@@ -85,7 +85,7 @@ let MT_CITY = $.getdata('MT_CITY') || '嘉兴市';
 let MT_DISTRICT = $.getdata('MT_DISTRICT') || '桐乡市|南湖区|秀洲区|海宁市';
 let MT_ITEM_BLACK = $.getdata('MT_ITEM_BLACK') || '2478|10056';
 let MT_TOKENS = $.getdata('MT_TOKENS') || '';
-let MT_VERSION = $.getdata('MT_VERSION') || '1.4.9';
+let MT_VERSION = $.getdata('MT_VERSION') || '1.5.6';
 let MT_USERAGENT = $.getdata('MT_USERAGENT') || 'iOS;16.7;Apple;?unrecognized?';
 let MT_R = $.getdata('MT_R') || 'clips_OlU6TmFRag5rCXwbNAQ/Tz1SKlN8THcecBp/HGhHdw==';
 
