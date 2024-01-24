@@ -592,7 +592,7 @@
         "https://raw.githubusercontent.com/lowking/Scripts/master/doc/icon/aliYunPan.png"
       ],
       "keys": [
-        "aliyun_data",
+        "aliyun_data"
       ],
       "settings": [
         {
@@ -601,7 +601,7 @@
           "val": "",
           "type": "text",
           "desc": "阿里云盘token"
-        },
+        }
       ],
       "author": "@lowking",
       "repo": "https://github.com/lowking/Scripts",
