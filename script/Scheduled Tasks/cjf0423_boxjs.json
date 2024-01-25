@@ -586,13 +586,14 @@
   {
       "id": "lkAliYunPanCheckIn",
       "name": "阿里云盘签到",
-      "desc_html": "⚠️使用说明</br>详情【<a href='https://github.com/lowking/Scripts/blob/master/ali/aliYunPanCheckIn.js?raw=true'><font class='red--text'>点我查看</font></a>】",
+      "desc_html": "⚠️使用说明</br>详情【<a href='https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js'><font class='red--text'>点我查看</font></a>】",
       "icons": [
         "https://raw.githubusercontent.com/lowking/Scripts/master/doc/icon/aliYunPana.png",
         "https://raw.githubusercontent.com/lowking/Scripts/master/doc/icon/aliYunPan.png"
       ],
       "keys": [
-        "aliyun_data"
+        "aliyun_data",
+        "aliyun_reward"
       ],
       "settings": [
         {
@@ -601,11 +602,18 @@
           "val": "",
           "type": "text",
           "desc": "阿里云盘token"
-        }
+        },
+        {
+          "id": "aliyun_reward",
+          "name": "是否自动领取奖励",
+          "val": true,
+          "type": "boolean",
+          "desc": "默认自动领取奖励"
+        },
       ],
       "author": "@lowking",
       "repo": "https://github.com/lowking/Scripts",
-      "script": "https://github.com/lowking/Scripts/blob/master/ali/aliYunPanCheckIn.js?raw=true"
+      "script": "https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js"
   },
   {
   "id": 
