@@ -609,7 +609,7 @@
           "val": true,
           "type": "boolean",
           "desc": "默认自动领取奖励"
-        },
+        }
       ],
       "author": "@lowking",
       "repo": "https://github.com/lowking/Scripts",
